@@ -1,0 +1,24 @@
+Xierip:
+  XieScratch:
+    Open:
+      clickItemName: "&cKliknij aby zdrapac."
+    Display:
+      #lore do zdrapek pod /zdrapki
+      guiLore:
+        - "&cKliknij aby zobaczyc nagrody!"
+      #lore do itemow po kliknieciu w konkretna zdrapke
+      subGuiLore:
+        - "&9Szansa &6{CHANCE}"
+    #inventory pdo /zdrapki
+    Inventory:
+      #nazwa glownego inventory
+      name: "&cZdrapki"
+      #nazwa gui od konkretnej zdrapki, na koniec jest dodawana nazwa zdrapki
+      nameSub: "&c&c&cItemy z "
+      #guzik powrotu w gui
+      backButton:
+        id: 35
+        data: 14
+        name: "&cWroc"
+        lore:
+          - "&cKliknij aby wrocic do glownego menu!"

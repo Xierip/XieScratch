@@ -1,0 +1,151 @@
+Xierip:
+  XieScratch:
+    Scratch:
+      #te normal to cala sekcja jednej zdrapki, mozesz ich dodac ile chcesz
+      normal:
+        #nazwa do broadcastow, gui
+        name: "&6Tania Zdrapka"
+        #wielkosc gui do losowania 1-6
+        size: 3
+        #item zdrapki
+        item:
+          id: 339
+          name: "&l&6*** &9Tania Zdrapka &l&6***"
+          lore:
+            - "&6Kliknij aby wylosowac!"
+            - "&6 Drop pod /zdrapka"
+        #drop...
+        drop:
+          miecz:
+            #kolor fajerwerka ktory wybuchnie
+            #colors: WHITE, SILVER, GRAY, BLACK, RED, MAROON, YELLOW, OLIVE, LIME, GREEN, AQUA, TEAL, BLUE, NAVY, FUCHSIA, PURPLE, ORANGE
+            firework: WHITE
+            chance: 15
+            item:
+              name: "&bDiamentowy Miecz"
+              id: 276
+          koxy:
+            firework: BLUE
+            chance: 5
+            item:
+              name: "&cKoxy"
+              id: 322
+              amount: 6
+              data: 1
+          pickaxe:
+            firework: RED
+            chance: 1
+            item:
+              id: 278
+              name: "&cSuper Kilof"
+              lore:
+                - "&cSzybki jak"
+                - "&cnacpany sebix"
+              enchants:
+                efficiency: 10
+                unbreaking: 10
+      #te premium to cala sekcja jednej zdrapki, mozesz ich dodac ile chcesz
+      premium:
+        #nazwa do broadcastow, gui
+        name: "&6Droga Zdrapka"
+        #wielkosc gui do losowania 1-6
+        size: 6
+        #item zdrapki
+        item:
+          id: 339
+          name: "&l&6*** &9Droga Zdrapka &l&6***"
+          lore:
+            - "&6Kliknij aby wylosowac!"
+            - "&6 Drop pod /zdrapka"
+        #drop...
+        drop:
+          miecz:
+            #kolor fajerwerka ktory wybuchnie
+            firework: WHITE
+            chance: 15
+            item:
+              name: "&bDiamentowy Miecz"
+              id: 276
+              enchants:
+                unbreaking: 10
+                shaprpness: 3
+          koxy:
+            firework: BLUE
+            chance: 10
+            item:
+              name: "&cKoxy"
+              id: 322
+              amount: 6
+              data: 1
+          zloto:
+            firework: BLUE
+            chance: 10
+            item:
+              name: "&6Blok zlota"
+              id: 41
+              amount: 10
+          diax:
+            firework: RED
+            chance: 5
+            item:
+              name: "&6Blok diamentu"
+              id: 57
+              amount: 10
+          pickaxe:
+            firework: RED
+            chance: 5
+            item:
+              id: 278
+              name: "&cSuper Kilof"
+              lore:
+                - "&cSzybki jak"
+                - "&cnacpany sebix"
+              enchants:
+                efficiency: 10
+                unbreaking: 10
+                forune: 3
+      kolejna:
+        #nazwa do broadcastow, gui
+        name: "&6kolejna Zdrapka"
+        #wielkosc gui do losowania 1-6
+        size: 6
+        #item zdrapki
+        item:
+          id: 339
+          name: "&l&6*** &9Droga Zdrapka &l&6***"
+          lore:
+            - "&6Kliknij aby wylosowac!"
+            - "&6 Drop pod /zdrapka"
+        #drop...
+        drop:
+          miecz:
+            #kolor fajerwerka ktory wybuchnie
+            firework: WHITE
+            chance: 15
+            item:
+              name: "&bDiamentowy Miecz"
+              id: 276
+              enchants:
+                unbreaking: 10
+                shaprpness: 3
+          koxy:
+            firework: BLUE
+            chance: 10
+            item:
+              name: "&cKoxy"
+              id: 322
+              amount: 6
+              data: 1
+          pickaxe:
+            firework: RED
+            chance: 5
+            item:
+              id: 278
+              name: "&cSuper Kilof"
+              lore:
+                - "&cSzybki jak"
+                - "&cnacpany sebix"
+              enchants:
+                efficiency: 10
+                unbreaking: 10
+                forune: 3

@@ -1,0 +1,6 @@
+name: XieScratch
+main: pl.xierip.xiescratch.XieScratch
+author: Xierip
+website: http://xierip.pl/
+version: 0.2
+softdepend: [Vault]

@@ -1,0 +1,22 @@
+Xierip:
+  XieScratch:
+    Messages:
+     #jesli tresc wiadomosci zmienimy na "off" to nie bedzie wyswietlana, lub mozesz ja po prostu usunac, kazda wiadomosc moze byc lista lub pojedynczym stringiem :)
+      bc-open_scratch:
+        - "&8>>&7 Gracz &6{PLAYER} &7zdrapal&6 {NAME}"
+        - "&8>>&7 i otrzymal: &6{DROP}"
+      bc-give_all:
+        - "&7 "
+        - "&8>> &7Kazdy gracz otrzymal &6{AMOUNT} szt&7. {NAME}"
+        - "&7 "
+      bc-give_group:
+        - "&7"
+        - "&8>> &7Kazdy gracz z ranga&6 {GROUP}"
+        - "&8>> &7otrzymal &6{AMOUNT} szt&7. {NAME}"
+        - "&7"
+      info-open_scratch: "&8>> &7Zdrapales &6{NAME} &7i otrzymales: &6{DROP}"
+      #info-give_all: "&aOtrzymales {AMOUNT} szt {NAME}"
+      #info-give_group: "&aOtrzymales {AMOUNT} szt {NAME}"
+      info-give_all: "off"
+      info-give_group: "off"
+      info-give_player: "&8>> &7Otrzymales &6{AMOUNT} szt&7.&6 {NAME}"
